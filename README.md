@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    Document Object Model
+
 2. What is an event?
+
+    An event is an action that get's triggered by the user
 
 3. What is an event listener?
 
+    An event listener is a function that waits for the event to occur
+
 4. Why would we convert a NodeList into an Array?
 
+    Because when you use querySelectorAll it returns a NodeList instead of an array, querySelectorAll is a browser API that gives you access to the DOM and you can't manipulate it with Javascript so you need to convert the NodeList into an array to manipulate it with Javascript
+
 5. What is a component?
+
+    A component is a reuseable set of behaviors and elements
 
 ### Git Set up
 
